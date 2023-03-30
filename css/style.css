@@ -1,0 +1,169 @@
+/*reset css para tirar todas as margens dos elementos*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.cabecalho {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cabecalho>img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu>li>a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu>li:hover {
+    background-color: brown;
+}
+
+.pizza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    flex-direction: column;
+    box-shadow: 1px 1px 15px rgb(4, 95, 4);
+}
+
+.pizza>h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botao {
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.427);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 400;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(34, 197, 34);
+}
+
+h2 {
+    color: hsl(120, 100%, 25%);
+    margin-top: 20px;
+}
+
+hr {
+    border: none;
+    background: rgb(167, 0, 0);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 15, 15, 1) 21%, rgba(255, 0, 0, 1) 80%, rgba(255, 9, 9, 1) 80%, rgba(255, 255, 255, 0) 100%);
+    height: 3px;
+    margin: 10px 20px;
+}
+
+.sabores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sabor {
+    margin: 10px;
+    background-color: rgb(15, 192, 15);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(96, 255, 15, 1) 0%, rgba(10, 142, 19, 1) 100%, rgba(9, 255, 25, 1) 100%, rgba(255, 255, 255, 0) 100%);
+    padding-bottom: 20px;
+    border: 5px;
+    border-radius: 20px;
+    width: 300px;
+    min-width:300px ;
+
+}
+
+.preco {
+    background-color: yellow;
+    border: 5px solid yellow;
+    border-radius: 30px;
+    width: 180px;
+    margin-left: 60px;
+}
+
+div>img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.nome {
+    margin: 10px;
+}
+
+.saboresflow {
+    overflow: scroll;
+}
+
+.promocoes {
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+}
+
+.promocoes::-webkit-scrollbar {
+    display: none;
+}
+
+p {
+    text-align: center;
+}
+
+.Contato {
+    padding: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.endereco{
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.social>ul > li > a{
+    color: white;
+    text-decoration: none;
+}
